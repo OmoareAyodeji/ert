@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    height: 50em;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calc{
+    height: 65%;
+    width: 23%;
+    background: linear-gradient(rgb(2, 47, 65), silver);
+    border-radius: 6px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding-left: 1.5%;
+    padding-top: 2%;
+}
+#screen{
+    height: 17%;
+    width: 95%;
+    background-color: lightgrey;
+    margin-bottom: 5%;
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: right;
+}
+button{
+    background-color: orange;
+    border-radius: 24px;
+    height: 11%;
+    width: 22%;
+    font-size: 120%;
+    font-weight: 500;
+    color: whitesmoke;
+}
+#ba, #bb, #bc, #ca, #cb, #cc, #da, #db, #dc, #ea, #eb{
+    background-color: rgb(15, 65, 85);
+}
+#ea{
+    width: 44%;
+}
+#aa, #ab, #ac{
+    background-color: rgb(160, 193, 206);
+    color: black;
+}
