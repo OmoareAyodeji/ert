@@ -52,3 +52,57 @@ button{
     background-color: rgb(160, 193, 206);
     color: black;
 }
+@media only screen and (max-width : 376px){
+    #calc{
+        width: 100%;
+    }
+}
+@media only screen and (min-width : 376px){
+    #calc{
+        width: 100%;
+    }
+}
+@media only screen and (min-width : 550px){
+    #calc{
+        height: 65%;
+        width: 50%;
+        background: linear-gradient(rgb(2, 47, 65), silver);
+        border-radius: 6px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        padding-left: 1.5%;
+        padding-top: 2%;
+    }
+    #screen{
+        height: 17%;
+        width: 95%;
+        background-color: lightgrey;
+        margin-bottom: 5%;
+        font-size: 300%;
+        font-weight: bolder;
+        text-align: right;
+    }
+}
+@media only screen and (min-width : 800px){
+    #calc{
+        height: 65%;
+        width: 30%;
+        background: linear-gradient(rgb(2, 47, 65), silver);
+        border-radius: 6px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        padding-left: 1.5%;
+        padding-top: 2%;
+    }
+    #screen{
+        height: 17%;
+        width: 95%;
+        background-color: lightgrey;
+        margin-bottom: 5%;
+        font-size: 300%;
+        font-weight: bolder;
+        text-align: right;
+    }
+}
